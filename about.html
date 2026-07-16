@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>3 Cards</title>
+
+<style>
+*{
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+
+}
+
+body{
+
+background:#111827;
+
+}
+
+/* Navigation */
+
+nav{
+
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:18px 60px;
+
+background:#000;
+
+}
+
+.logo{
+
+font-size:30px;
+font-weight:bold;
+color:white;
+
+}
+
+nav ul{
+
+display:flex;
+list-style:none;
+
+}
+
+nav ul li{
+
+margin-left:30px;
+
+}
+
+nav ul li a{
+
+text-decoration:none;
+color:white;
+font-size:18px;
+transition:.3s;
+
+}
+
+nav ul li a:hover{
+
+color:#00d9ff;
+
+}
+
+/* Cards */
+
+.container{
+
+display:flex;
+justify-content:center;
+gap:30px;
+
+padding:70px 30px;
+
+flex-wrap:wrap;
+
+}
+
+.card{
+
+width:250px;
+
+background:rgba(255,255,255,.12);
+
+backdrop-filter:blur(10px);
+
+border-radius:20px;
+
+padding:15px;
+
+text-align:center;
+
+box-shadow:0 0 15px rgba(0,0,0,.5);
+
+transition:.4s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.card img{
+
+width:100%;
+height:150px;
+
+object-fit:cover;
+
+border-radius:15px;
+
+}
+
+.card h2{
+
+margin-top:15px;
+color:white;
+
+}
+
+.card p{
+
+margin:15px 0;
+
+color:#ddd;
+
+line-height:24px;
+
+}
+
+.card a{
+
+padding:10px 28px;
+
+background:black;
+
+color:white;
+
+border:none;
+
+text-decoration: none;
+            
+border-radius:30px;
+
+cursor:pointer;
+
+font-size:15px;
+
+transition:.3s;
+
+}
+
+.card button:hover{
+
+background:#ff0077;
+
+}
+
+</style>
+
+</head>
+<body>
+
+<!-- Navigation -->
+
+<nav>
+
+<div class="logo">Assignment 02</div>
+
+<ul>
+    <li><a href="index.html">Task 1</a></li>
+    <li><a href="picture.html">Task 2</a></li>
+    <li><a href="about.html">Task 3</a></li>
+    <li><a href="contact.html">Task 4</a></li>
+</ul>
+
+</nav>
+
+<!-- Cards -->
+
+<div class="container">
+
+    <div class="card">
+        <img src="image3.jpg" alt="Mountain">
+
+        <div class="content">
+            <h3>Snowy Mountain</h3>
+
+            <p>
+                Beautiful mountain view with snowy peaks
+                and natural scenery.
+            </p>
+
+            <a href="#">Read More</a>
+
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="image.jpg" alt="Sunset">
+
+        <div class="content">
+            <h3>Sunset View</h3>
+
+            <p>
+                Enjoy the peaceful sunset beside the sea
+                with fresh air.
+            </p>
+
+            <a href="#">Read More</a>
+
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="image2.jpg" alt="Nature">
+
+        <div class="content">
+            <h3>Nature Beauty</h3>
+
+            <p>
+                Amazing landscape with mountains,
+                greenery and beautiful sky.
+            </p>
+
+            <a href="#">Read More</a>
+
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
