@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+            <style>
+                         
+             *{
+             margin:0;
+             padding:0;
+             box-sizing:border-box;
+             font-family:Arial,sans-serif;
+
+           }
+
+       body{
+
+          background:#111827;
+
+           }
+
+/* Navigation */
+
+           nav{
+             width:100%;
+             display:flex;
+             justify-content:space-between;
+             align-items:center;
+             padding:18px 60px;
+             background:#000;
+
+         }
+
+        .logo{
+             font-size:30px;
+             font-weight:bold;
+             color:white;
+
+        }
+
+        nav ul{
+         display:flex;
+         list-style:none;
+
+        }
+
+       nav ul li{
+              margin-left:30px;
+
+        }
+      nav ul li a{
+                text-decoration:none;
+                color:white;
+                font-size:18px;
+                transition:.3s;
+
+        }
+
+     nav ul li a:hover{
+           color:#00d9ff;
+
+        }
+
+/* Cards */
+
+        .container{
+             display:flex;
+             justify-content:center;
+             gap:30px;
+             padding:70px 30px;
+             flex-wrap:wrap;
+
+        }
+
+          .card{
+             width:250px;
+             background:rgba(255,255,255,.12);
+             backdrop-filter:blur(10px);
+             border-radius:20px;
+             padding:15px;
+             text-align:center;
+             box-shadow:0 0 15px rgba(0,0,0,.5);
+             transition:.4s;
+
+      }
+
+         .card:hover{
+             transform:translateY(-10px);
+
+     }
+
+        .card img{
+              width:100%;
+              height:150px;
+              object-fit:cover;
+              border-radius:15px;
+
+    }
+
+        .card h2{
+            margin-top:15px;
+            color:white;
+
+   }
+
+       .card p{
+             margin:15px 0;
+             color:#ddd;
+             line-height:24px;
+
+  }
+
+      .card button{
+             padding:10px 28px;
+             background:black;
+             color:white;
+             border:none;
+             border-radius:30px;
+             cursor:pointer;
+             font-size:15px;
+             transition:.3s;
+
+  }
+
+    .card button:hover{
+                 background:#ff0077;
+
+}
+            </style>
+
+
+
+<title>Glass Cards</title>
+
+
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+
+<nav>
+
+    <div class="logo">Assignment 02</div>
+
+    <ul>
+
+     <li><a href="index.html">Task 1</a></li>
+    <li><a href="picture.html">Task 2</a></li>
+    <li><a href="about.html">Task 3</a></li>
+    <li><a href="contact.html">Task 4</a></li>
+
+    </ul>
+
+</nav>
+
+
+<!-- Cards -->
+
+<div class="container">
+
+<div class="card">
+
+<img src="image6.jpg">
+
+<h2>Nature</h2>
+
+<p>
+Beautiful mountains and peaceful
+views that make every journey
+memorable.
+</p>
+
+<button>Read More</button>
+
+</div>
+
+
+<div class="card">
+
+<img src="image7.jpg">
+
+<h2>Travel</h2>
+
+<p>
+Explore amazing places around
+the world with unforgettable
+experiences.
+</p>
+
+<button>Read More</button>
+
+</div>
+
+
+<div class="card">
+
+<img src="image8.jpg">
+
+<h2>Adventure</h2>
+
+<p>
+Enjoy exciting adventures and
+discover new destinations every
+day.
+</p>
+
+<button>Read More</button>
+
+</div>
+
+</div>
+
+</body>
+</html>
